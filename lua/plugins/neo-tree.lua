@@ -8,7 +8,7 @@ return{
     "3rd/image.nvim",
   },
   config = function()
-    vim.keymap.set('n', 'nt', ':Neotree<CR>')
+    vim.keymap.set('n', 'nt', '<Cmd>Neotree toggle<CR>')
   end
 }
 
