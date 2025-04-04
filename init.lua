@@ -20,4 +20,5 @@ vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup("plugins")
 
-
+local theme = require('last-color').recall() or 'default'
+vim.cmd.colorscheme(theme)
